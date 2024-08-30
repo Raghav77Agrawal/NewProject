@@ -462,7 +462,7 @@ body {
 
  
 }
-@media(max-width:950px) and (min-width:450px){
+@media (min-width:1200px){
   .images{
     width:50vw;
     height:60vh;
@@ -474,7 +474,7 @@ body {
   }
   .hero .container{
     display:flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     margin-top:5rem;
     justify-content: center;
